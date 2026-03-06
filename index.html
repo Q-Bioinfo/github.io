@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qiong Meng | AI Scientist & Genomics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #21262d;
+      --secondary: #57606a;
+      --accent: #238636;
+      --background: #f6f8fa;
+      --card-bg: #fff;
+      --link: #2e7bcf;
+    }
+    body {
+      margin: 0; background: var(--background); color: var(--primary);
+      font-family: 'Roboto', Arial, sans-serif;
+    }
+    header {
+      text-align: center; padding: 2.5rem 1rem 2rem 1rem; background: linear-gradient(100deg, #28375a 40%, #226e48 100%);
+      color: #fff; margin-bottom: 0.5rem;
+    }
+    .avatar { width: 120px; height: 120px; border-radius: 50%; border: 4px solid #fff;
+      object-fit: cover; margin-bottom: 1.1rem; background: #fff; box-shadow: 0 2px 8px #2222;
+    }
+    h1 { margin: 0.2rem 0 0.4rem 0; font-size: 2.4rem; }
+    .subtitle { font-size: 1.18rem; color: #ccf2ee; font-family: 'Fira Mono',monospace; }
+    nav {
+      background: var(--card-bg); border-bottom: 1px solid #eaecef; box-shadow: 0 2px 7px #0001;
+      display: flex; justify-content: center; gap: 2.2rem; padding: 0.6rem 0; font-weight: 500; position: sticky; top: 0; z-index: 20;
+    }
+    nav a {
+      text-decoration: none; color: var(--primary); transition: border 0.18s;
+      border-bottom: 2px solid transparent; padding-bottom: 3px;
+    }
+    nav a:hover, nav a.active {
+      color: var(--accent); border-bottom: 2px solid var(--accent);
+    }
+    main { max-width: 950px; margin: 2rem auto 2rem auto; padding: 0 1rem; }
+    section {
+      background: var(--card-bg); border-radius: 13px; box-shadow: 0 2px 12px #21262d14;
+      margin-bottom: 2rem; padding: 2rem 2.2rem 1.5rem 2.2rem;
+    }
+    h2 { color: var(--accent); font-size: 1.45rem; margin-top: 0; margin-bottom: 1.25rem; }
+    ul { list-style-type: disc; margin: 0 0 0 1.5rem; }
+    section p, section li { color: var(--secondary); font-size: 1.07rem; line-height: 1.7; }
+    a { color: var(--link); }
+    .links-bar { margin-top: 0.7rem; font-size: 1.07rem; }
+    .links-bar a { margin: 0 1.15rem; color: #d3ecff; text-decoration: underline;}
+    .cv-tag { background: #eaf7ea; color: #238636; border-radius: 7px; padding: 0.12rem 0.52rem; font-size: 0.96rem; margin-right: 0.5rem;}
+    footer { text-align: center; color: #767b82; font-size: 0.97rem; padding: 2rem 0 1rem 0; }
+    @media (max-width: 700px) {
+      .avatar { width: 84px; height: 84px; }
+      main { padding: 0; }
+      section { padding: 1.1rem 0.7rem; }
+      nav { gap: 0.9rem; }
+    }
+    .pub-list { margin-left: 1.5em; font-size: 0.98em; color: #444; }
+    .pub-title { font-weight: bold; color: var(--primary);}
+    .pub-venue { color: #286583; }
+  </style>
+</head>
+<body>
+  <header>
+      <img src="https://avatars.githubusercontent.com/Q-Bioinfo" alt="Qiong Meng avatar" class="avatar">
+      <h1>Qiong Meng</h1>
+      <div class="subtitle">
+        AI Scientist | Specializing in Integrative Bioinformatics &amp; Cancer Genomics
+      </div>
+      <div class="links-bar">
+        <a href="https://www.linkedin.com/in/qiong-meng" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Q-Bioinfo" target="_blank">GitHub</a>
+      </div>
+  </header>
+  <nav>
+    <a href="#about" class="active">About</a>
+    <a href="#interests">Research</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#publications">Publications</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a scientist and experienced bioinformatician specializing in integrative cancer genomics, multi-omics analysis, and computational biology. I am dedicated to leveraging analytical pipelines for next-generation sequencing and supporting advances in precision oncology.
+      </p>
+    </section>
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Translational cancer genomics and tumor evolution</li>
+        <li>AI-driven bioinformatics approaches for clinical genomics</li>
+        <li>Liquid biopsy and minimal residual disease detection</li>
+        <li>Single-cell and multi-omics analysis in cancer</li>
+        <li>Extracellular vesicle-mediated signaling in aging and disease</li>
+        <li>Application of next-generation sequencing technologies (WES, WGS, RNA-seq, scRNA-seq) in research and clinical settings</li>
+      </ul>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <span class="cv-tag">Ph.D. Pathogen Biology</span> State Key Laboratory, China CDC, China
+          <ul>
+            <li>Thesis: Pathogen screening system and rare pathogen detection technology</li>
+          </ul>
+        </li>
+        <li>
+          <span class="cv-tag">M.Sc. Hydrobiology & Ecology</span> Shanghai Ocean University, China
+        </li>
+        <li>
+          <span class="cv-tag">B.S. Biology</span> Huaibei Normal University, China
+        </li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <ul>
+        <li>
+          <b>Postdoc Fellow, Oncology & Cancer Genomics</b> — Johns Hopkins School of Medicine, USA (2023–present)
+          <ul>
+            <li>Genomic landscape and therapeutic response in Mesothelioma and NSCLC</li>
+            <li>Led MRD analysis for clinical trials; WES/WGS & multi-omics data</li>
+          </ul>
+        </li>
+        <li>
+          <b>Staff Scientist</b> — University of Pennsylvania Perelman School of Medicine, USA (2023)
+          <ul>
+            <li>Single-cell & multi-omics workflows for African Immune Cell Diversity</li>
+            <li>Biorepository & large-scale cohort genomics</li>
+          </ul>
+        </li>
+        <li>
+          <b>Visiting Fellow </b> — National Institute on Aging/NIH (2018–2023)
+          <ul>
+            <li>Microbiome & host-environment interactions in aging</li>
+            <li>Extracellular vesicles (EVs) in Alzheimer’s disease and aging</li>
+          </ul>
+        </li>
+        <li>
+          <b>Research Scientist</b> — Zhejiang CDC, China (2014–2017)
+          <ul>
+            <li>Genomic surveillance of multi-drug resistant TB</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><b>Wet Lab:</b> NGS library prep (WES/WGS, RNA-seq, scRNA-seq, scATAC-seq), primary cell/organoid models, liquid biopsy, molecular diagnostics</li>
+        <li><b>Dry Lab:</b> NGS data analysis pipelines (Python, R, Bash), single-cell and multi-omics analytics, reproducible research workflows (Bioconductor, QIIME2), cloud/HPC computing</li>
+      </ul>
+    </section>
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-title">Reuss JE, ... Meng Q</span>  
+          <span class="pub-venue">Nat. Med. 2023</span>
+        </li>
+        <li>
+          <span class="pub-title">Abdelmohsen K, ... Meng Q</span>  
+          <span class="pub-venue">Aging Cell. 2024</span>
+        </li>
+        <li>
+          <span class="pub-title">Meng Q, Chen C, Na Y, et al.</span>  
+          <span class="pub-venue">PNAS. 2023</span>
+        </li>
+        <!-- add more as needed -->
+      </ol>
+      <div style="margin-top:1.3em;">
+        <a href="https://scholar.google.com/citations?user=WQlRwlkAAAAJ&hl=en" target="_blank">Full publication list on Google Scholar &rarr;</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2026 Qiong Meng | 
+    <a href="https://github.com/Q-Bioinfo" style="color:#238636;text-decoration:none;">GitHub</a> | 
+    <a href="https://www.linkedin.com/in/qiong-meng" style="color:#238636;text-decoration:none;">LinkedIn</a>
+  </footer>
+</body>
+</html>
